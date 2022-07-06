@@ -1,0 +1,19 @@
+.popover-bottom .MuiPaper-root {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0.6rem 0.4rem;
+  margin-top: 10px;
+  display: table;
+}
+
+.popover-bottom .MuiPaper-root::before {
+  content: "";
+  border-bottom: 10px solid black;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  transform: translateY(-100%);
+}
